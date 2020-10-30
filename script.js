@@ -27,10 +27,9 @@ function buttonPress(){
     input = document.getElementById('input');
     url = input.value;
     console.log(url);
-    window.location.replace(url);
-    setTimeout(console.log("hiii"),4000);
     // let a = window.open(url,"name");
     // a.focus();
+    setTimeout(console.log("wait until confirm"),4000);
     if(confirm('Start download?')){
         alert('Downloading');
     }
